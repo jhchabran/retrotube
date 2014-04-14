@@ -7,5 +7,5 @@
 
 (defn -main [& args]
   (http-kit/run-server
-   (reload/wrap-reload app)
+   (reload/wrap-reload #'app)
    {:port 3000}))
