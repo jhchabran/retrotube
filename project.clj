@@ -9,7 +9,6 @@
                  [ring/ring-json "0.2.0"]]
   :plugins [[lein-ring "0.8.10"]
             [lein-cooper "0.0.1"]]
-  :ring {:handler retrotube.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring/ring-devel "1.1.8"]
